@@ -7,9 +7,9 @@ if remainder == 0
   X
 end
 
-if remainder == 1
-  Y
-end
+         if remainder == 1
+            Y
+          end
 
 
 end
