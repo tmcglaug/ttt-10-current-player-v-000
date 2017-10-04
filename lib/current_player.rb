@@ -22,17 +22,11 @@ length = board.length
 
 puts "#{length}"
 
-while count <= board.length-1
+board.each { |item| 
 
-if board[count] == " "
-    count += 1
+  puts item }
 
-else
-  count += 1
-  position_count += 1
-end
 
-end
 
 
 end
