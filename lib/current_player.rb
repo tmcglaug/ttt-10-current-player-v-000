@@ -21,15 +21,13 @@ position_count = 0
 
 while count <= board.length-1
 
-if board[count] != ""
+if board[count] == " "
     count += 1
-    position_count += 1
+    
 else
   count += 1
-
+  position_count += 1
 end
-
-
 
 end
 
