@@ -1,10 +1,13 @@
 def current_player(board)
 
+playerX = "X"
+playerY = "Y"
+
 turns = turn_count(board)
 remainder = turns % 2
 
 if remainder == 0
-  X
+  playerX
 end
 
          if remainder == 1
