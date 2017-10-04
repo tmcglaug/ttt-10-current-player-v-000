@@ -28,7 +28,7 @@ board.each { |item|
 if item == " "
 
 else
-  puts item
+  #puts item
   count += 1
 end
    }
