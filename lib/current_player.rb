@@ -18,14 +18,6 @@ def turn_count(board)
 
 count = 0
 
-while count <= board.length-1
 
-if board[count] == "X"
-    count += 1
-else
-  if board[count] == "Y"
-     count += 1
-end
-end
 
 end
