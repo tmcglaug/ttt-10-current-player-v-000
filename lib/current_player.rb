@@ -1,7 +1,7 @@
 def current_player(board)
 
 playerX = "X"
-playerY = "Y"
+playerO = "O"
 
 turns = turn_count(board)
 remainder = turns % 2
