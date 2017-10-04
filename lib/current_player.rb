@@ -11,7 +11,7 @@ if remainder = 0
 end
 
          if remainder = 1
-            playerY
+            playerO
           end
 
 
