@@ -17,14 +17,18 @@ end
 def turn_count(board)
 
 count = 0
-position_count = 0
-length = board.length
 
-puts "#{length}"
 
-board.each { |item| 
 
-  puts item }
+board.each { |item|
+
+if |item| == " "
+
+else
+  puts item
+  count += 1
+
+   }
 
 
 
