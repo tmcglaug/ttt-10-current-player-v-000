@@ -12,6 +12,7 @@ else
 if remainder == 1
   playerO
 end
+end
 
 end
 
