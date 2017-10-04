@@ -18,12 +18,15 @@ def turn_count(board)
 
 count = 0
 position_count = 0
+length = board.length
+
+puts "#{length}"
 
 while count <= board.length-1
 
 if board[count] == " "
     count += 1
-    
+
 else
   count += 1
   position_count += 1
