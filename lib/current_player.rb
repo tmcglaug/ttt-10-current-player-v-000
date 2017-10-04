@@ -25,9 +25,7 @@ if board[count] == "X"
 else
   if board[count] == "Y"
      count += 1
-     end
+end
+end
 
-
-
-  end
 end
