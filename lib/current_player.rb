@@ -22,7 +22,7 @@ count = 0
 
 board.each { |item|
 
-if |item| == " "
+if item == " "
 
 else
   puts item
