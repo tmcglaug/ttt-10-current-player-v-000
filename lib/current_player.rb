@@ -8,12 +8,10 @@ remainder = turns % 2
 
 if remainder == 0
   playerX
+else
+if remainder == 1
+  playerO
 end
-
-         if remainder == 1
-            playerO
-          end
-
 
 end
 
